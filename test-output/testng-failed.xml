@@ -3,9 +3,16 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="com.testcases.AddCB_test">
+        <methods>
+          <include name="verify_addCB_valid"/>
+        </methods>
+      </class> <!-- com.testcases.AddCB_test -->
       <class name="com.testcases.CoreadminLogin_test">
         <methods>
+          <include name="verify_invaliduser_validpwd"/>
           <include name="verify_validlogin"/>
+          <include name="verify_invaliduser_invalidpwd"/>
         </methods>
       </class> <!-- com.testcases.CoreadminLogin_test -->
     </classes>

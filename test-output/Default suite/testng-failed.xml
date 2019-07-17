@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testcases.CoreadminLogin_test">
+      <class name="com.testcases.AddCB_test">
         <methods>
-          <include name="verify_validlogin"/>
+          <include name="verify_addCB_valid"/>
         </methods>
-      </class> <!-- com.testcases.CoreadminLogin_test -->
+      </class> <!-- com.testcases.AddCB_test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
